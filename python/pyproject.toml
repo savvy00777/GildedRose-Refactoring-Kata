@@ -12,6 +12,8 @@ test = [
     "approvaltests>=16.2.1",
     "pytest>=9.0.2",
     "pytest-approvaltests>=0.2.4",
+    "hypothesis>=6.100",
+    "mypy>=1.10",
 ]
 
 [tool.pytest.ini_options]
@@ -25,3 +27,7 @@ source = ["gilded_rose"]
 [tool.coverage.report]
 show_missing = true
 skip_empty = true
+
+[tool.mypy]
+files = ["gilded_rose_core"]
+strict = true

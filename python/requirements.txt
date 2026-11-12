@@ -2,3 +2,5 @@ pytest
 approvaltests
 pytest-approvaltests
 coverage
+hypothesis
+mypy
